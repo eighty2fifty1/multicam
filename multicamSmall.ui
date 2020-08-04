@@ -64,22 +64,6 @@
      <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
-   <widget class="QPushButton" name="pairButton">
-    <property name="enabled">
-     <bool>true</bool>
-    </property>
-    <property name="geometry">
-     <rect>
-      <x>40</x>
-      <y>130</y>
-      <width>153</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Select camera and hold to pair</string>
-    </property>
-   </widget>
    <widget class="QPushButton" name="cam3">
     <property name="geometry">
      <rect>
@@ -137,12 +121,19 @@
      <string/>
     </property>
    </widget>
-   <zorder>pairButton</zorder>
-   <zorder>cam1</zorder>
-   <zorder>cam4</zorder>
-   <zorder>cam3</zorder>
-   <zorder>cam2</zorder>
-   <zorder>videoLbl</zorder>
+   <widget class="QPushButton" name="pairButton">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>200</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Pair</string>
+    </property>
+   </widget>
   </widget>
  </widget>
  <resources/>
